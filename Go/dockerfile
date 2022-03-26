@@ -1,0 +1,8 @@
+FROM golang
+WORKDIR /App
+
+COPY . .
+
+CMD [ "go", "run", "main.go"]
+
+# Hello world sem ter go instalado, legal!
